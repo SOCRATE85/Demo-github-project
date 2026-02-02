@@ -8,7 +8,7 @@ A beautiful, real-time status dashboard for monitoring infrastructure and applic
 ## 🌐 Live Dashboard
 
 **Access the live dashboard at:**
-👉 **https://gaetanneo.github.io/Demo-github-project/**
+👉 **https://SOCRATE85.github.io/Demo-github-project/**
 
 ## 📋 Features
 
@@ -23,7 +23,7 @@ A beautiful, real-time status dashboard for monitoring infrastructure and applic
 
 ### View the Dashboard
 
-Simply open: https://gaetanneo.github.io/Demo-github-project/
+Simply open: https://SOCRATE85.github.io/Demo-github-project/
 
 ### Update System Status
 
@@ -80,7 +80,7 @@ const applications = [
 
 ```html
 <iframe 
-  src="https://gaetanneo.github.io/Demo-github-project/" 
+  src="https://SOCRATE85.github.io/Demo-github-project/" 
   width="100%" 
   height="1400" 
   frameborder="0"
@@ -91,7 +91,7 @@ const applications = [
 ### In Confluence:
 1. Edit your Confluence page
 2. Type `/iframe` or insert "HTML" macro
-3. Paste the URL: `https://gaetanneo.github.io/Demo-github-project/`
+3. Paste the URL: `https://SOCRATE85.github.io/Demo-github-project/`
 4. Set width: `100%`, height: `1400px`
 5. Publish!
 
@@ -147,6 +147,6 @@ For questions or issues, contact the DevSecOps team.
 
 ---
 
-**Last Updated:** November 2025
+**Last Updated:** November 2026
 **Version:** 1.0
 **Status:** Production Ready ✅
