@@ -218,71 +218,81 @@
   <meta charset="UTF-8">
   <title>System Health & Availability Dashboard</title>
 
-  <style>
-    body {
+ <style>
+     body {
       margin: 0;
       padding: 0;
-      background: #e9f7ef; /* light green page background */
+      background: #e9f7ef; /* default light green background */
+      transition: background 0.3s ease;
     }
 
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 25px;
-      font-family: Arial, sans-serif;
-      background: #d1fae5; /* light green container */
-      border-radius: 14px;
-      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    /* Yellow background toggle */
+    body.yellow-bg {
+      background: #fde047; /* yellow background */
     }
+  /* Yellow background toggle */
+  body.yellow-bg {
+    background: #fde047; /* yellow background */
+  }
 
-    .header {
-      text-align: center;
-      margin-bottom: 30px;
-    }
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    background: #d1fae5; /* light green container */
+    border-radius: 14px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+  }
 
-    .header h1 {
-      margin: 0;
-      color: #065f46;
-      font-size: 28px;
-    }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
-    .subtitle {
-      color: #047857;
-      font-size: 14px;
-      margin-top: 6px;
-    }
+  .header h1 {
+    margin: 0;
+    color: #065f46;
+    font-size: 28px;
+  }
 
-    .container div.status {
-      padding: 18px;
-      margin-bottom: 18px;
-      border-radius: 12px;
-      color: #fff;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+  .subtitle {
+    color: #047857;
+    font-size: 14px;
+    margin-top: 6px;
+  }
 
-    .container div.status:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
-    }
+  .container div.status {
+    padding: 18px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
 
-    .pink {
-      background: linear-gradient(135deg, #ff5f9e, #ff8fc7);
-    }
+  .container div.status:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+  }
 
-    .red {
-      background: linear-gradient(135deg, #dc2626, #f87171);
-    }
+  .pink {
+    background: linear-gradient(135deg, #ff5f9e, #ff8fc7);
+  }
 
-    .blue {
-      background: linear-gradient(135deg, #2563eb, #60a5fa);
-    }
+  .red {
+    background: linear-gradient(135deg, #dc2626, #f87171);
+  }
 
-    .yellow {
-      background: linear-gradient(135deg, #facc15, #fde047);
-      color: #333;
-    }
-  </style>
+  .blue {
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+  }
+
+  .yellow {
+    background: linear-gradient(135deg, #facc15, #fde047);
+    color: #333;
+  }
+</style>
 </head>
 
 <body>
