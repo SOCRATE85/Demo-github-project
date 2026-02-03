@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socrate Infrastructure Status Board</title>
+    <title> Infrastructure Status Board</title>
     <style>
         * {
             margin: 0;
@@ -212,6 +212,103 @@
         }
     </style>
 </head>
+
+<!-- New Update-->
+
+  <head>
+  <meta charset="UTF-8">
+  <title>Infrastructure Status Board</title>
+
+  <style>
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 25px;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      border-radius: 12px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #222;
+    }
+
+    .subtitle {
+      color: #555;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .container div.status {
+      padding: 18px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      color: #fff;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .container div.status:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .pink {
+      background: linear-gradient(135deg, #ff5f9e, #ff8fc7);
+    }
+
+    .red {
+      background: linear-gradient(135deg, #e63946, #ff6b6b);
+    }
+
+    .blue {
+      background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+    }
+
+    .yellow {
+      background: linear-gradient(135deg, #facc15, #fde047);
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>🖥️ Infrastructure Status Board</h1>
+      <div class="subtitle">Socrate Liale CHancelier- Real-time System Status</div>
+    </div>
+
+    <div class="status pink">
+      <h3>Application</h3>
+      <p>Running Normally</p>
+    </div>
+
+    <div class="status red">
+      <h3>Database</h3>
+      <p>Critical Issue</p>
+    </div>
+
+    <div class="status blue">
+      <h3>Network</h3>
+      <p>Stable</p>
+    </div>
+
+    <div class="status yellow">
+      <h3>Security</h3>
+      <p>Warning Detected</p>
+    </div>
+  </div>
+
+</body>
+<!-- New Update-->
 <body>
     <div class="container">
         <div class="header">
