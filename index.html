@@ -214,41 +214,48 @@
 </head>
 
 <!-- New Update-->
-
-  <head>
+<head>
   <meta charset="UTF-8">
-  <title>Infrastructure Status Board</title>
+  <title>System Health & Availability Dashboard</title>
 
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e9f7ef; /* light green page background */
+    }
+
     .container {
       max-width: 900px;
       margin: 40px auto;
       padding: 25px;
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      border-radius: 12px;
+      background: #d1fae5; /* light green container */
+      border-radius: 14px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
     }
 
     .header {
       text-align: center;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
     }
 
     .header h1 {
       margin: 0;
-      color: #222;
+      color: #065f46;
+      font-size: 28px;
     }
 
     .subtitle {
-      color: #555;
+      color: #047857;
       font-size: 14px;
-      margin-top: 5px;
+      margin-top: 6px;
     }
 
     .container div.status {
       padding: 18px;
-      margin-bottom: 15px;
-      border-radius: 10px;
+      margin-bottom: 18px;
+      border-radius: 12px;
       color: #fff;
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -256,7 +263,7 @@
 
     .container div.status:hover {
       transform: translateY(-4px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
     }
 
     .pink {
@@ -264,11 +271,11 @@
     }
 
     .red {
-      background: linear-gradient(135deg, #e63946, #ff6b6b);
+      background: linear-gradient(135deg, #dc2626, #f87171);
     }
 
     .blue {
-      background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+      background: linear-gradient(135deg, #2563eb, #60a5fa);
     }
 
     .yellow {
@@ -282,32 +289,33 @@
 
   <div class="container">
     <div class="header">
-      <h1>🖥️ Infrastructure Status Board</h1>
-      <div class="subtitle">Socrate Liale CHancelier- Real-time System Status</div>
+      <h1>🖥️🖥️ 🖥️  System Health & Availability Dashboard 🖥️ 🖥️ 🖥️ </h1>
+      <div class="subtitle">The first PLannification – Real-time System Status</div>
     </div>
 
     <div class="status pink">
-      <h3>Application</h3>
+      <h3>Application Services</h3>
       <p>Running Normally</p>
     </div>
 
     <div class="status red">
-      <h3>Database</h3>
-      <p>Critical Issue</p>
+      <h3>Database Systems</h3>
+      <p>Critical Issue Detected</p>
     </div>
 
     <div class="status blue">
-      <h3>Network</h3>
+      <h3>Network Connectivity</h3>
       <p>Stable</p>
     </div>
 
     <div class="status yellow">
-      <h3>Security</h3>
-      <p>Warning Detected</p>
+      <h3>Security Monitoring</h3>
+      <p>Warning – Review Required</p>
     </div>
   </div>
 
 </body>
+  
 <!-- New Update-->
 <body>
     <div class="container">
